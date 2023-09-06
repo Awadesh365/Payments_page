@@ -1,0 +1,78 @@
+/* styles.css */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #0c0e10, #bdccdb);
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 30px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.payment-details {
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.payment-details p {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.qr-code img {
+    max-width: 20%;
+    /* Adjust the percentage to your desired size */
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.payment-link {
+    margin-top: 30px;
+}
+
+.payment-link a {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.payment-link a:hover {
+    background-color: #007BFF;
+}
+
+.footer {
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+@media (max-width: 768px) {
+    .payment-details {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
